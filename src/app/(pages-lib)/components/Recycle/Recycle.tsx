@@ -1,3 +1,14 @@
+import {
+  faEarthAmericas,
+  faIndustry,
+  faLightbulb,
+  faSeedling,
+  faSolarPanel,
+  faStore,
+  faTrash,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+<FontAwesomeIcon icon={faIndustry} />;
 export default function Recycle() {
   return (
     <section className="flex flex-col items-center gap-10 bg-white px-4 py-36 md:gap-20 md:px-9">
@@ -14,31 +25,73 @@ export default function Recycle() {
 
       <section className="lg:px-50 grid grid-cols-2 flex-wrap justify-center gap-x-20 gap-y-10 md:flex">
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <div className="h-25 w-25 shadow-dark grid place-content-center rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]">
+            <FontAwesomeIcon
+              icon={faEarthAmericas}
+              className="h-13 w-13"
+              style={{ color: "#A8CC3B" }}
+            />
+          </div>
           <p className="w-38 text-center">Ahorro de recursos naturales</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <div className="h-25 w-25 shadow-dark grid place-content-center rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]">
+            <FontAwesomeIcon
+              icon={faIndustry}
+              className="h-13 w-13"
+              style={{ color: "#A8CC3B" }}
+            />
+          </div>
           <p className="w-40 text-center">Menos contaminación ambiental</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <div className="h-25 w-25 shadow-dark grid place-content-center rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]">
+            <FontAwesomeIcon
+              icon={faTrash}
+              className="h-13 w-13"
+              style={{ color: "#A8CC3B" }}
+            />
+          </div>
           <p className="w-38 text-center">Reducción de desechos</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <div className="h-25 w-25 shadow-dark grid place-content-center rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]">
+            <FontAwesomeIcon
+              icon={faLightbulb}
+              className="h-13 w-13"
+              style={{ color: "#A8CC3B" }}
+            />
+          </div>
           <p className="w-38 text-center">Energía más eficiente</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <div className="h-25 w-25 shadow-dark grid place-content-center rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]">
+            <FontAwesomeIcon
+              icon={faSolarPanel}
+              className="h-13 w-13"
+              style={{ color: "#A8CC3B" }}
+            />
+          </div>
           <p className="w-38 text-center">Creación de empleos verdes</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <div className="h-25 w-25 shadow-dark grid place-content-center rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]">
+            <FontAwesomeIcon
+              icon={faStore}
+              className="h-13 w-13"
+              style={{ color: "#A8CC3B" }}
+            />
+          </div>
           <p className="w-38 text-center">Apoyo a la economía circular</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <div className="h-25 w-25 shadow-dark grid place-content-center rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]">
+            <FontAwesomeIcon
+              icon={faSeedling}
+              className="h-13 w-13"
+              style={{ color: "#A8CC3B" }}
+            />
+          </div>
           <p className="w-38 text-center">Futuro más sostenible</p>
         </div>
       </section>
