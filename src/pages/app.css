@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cold-1: #bfc0e1;
+  --color-cold-2: #9fc52e;
+  --color-cold-3: #c15d89;
+  --color-cold-4: #274863;
+  --color-success-50: #e0f7fa;
+  --color-neutral-300: #e0e0e0;
+}
+
+/* Ejemplo de uso de los colores personalizados */
+.bg-cold-1 {
+  background-color: var(--color-cold-1);
+}
+.bg-cold-2 {
+  background-color: var(--color-cold-2);
+}
+.bg-cold-3 {
+  background-color: var(--color-cold-3);
+}
+.bg-cold-4 {
+  background-color: var(--color-cold-4);
+}
+.bg-success-50 {
+  background-color: var(--color-success-50);
+}
+.bg-neutral-300 {
+  background-color: var(--color-neutral-300);
+}
