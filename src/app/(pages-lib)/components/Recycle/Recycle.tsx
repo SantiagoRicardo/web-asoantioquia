@@ -14,38 +14,32 @@ export default function Recycle() {
 
       <section className="lg:px-50 grid grid-cols-2 flex-wrap justify-center gap-x-20 gap-y-10 md:flex">
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 rounded-3xl bg-[#4686BA]"></div>
-          <p className="w-38 text-center text-sm">
-            Ahorro de recursos naturales
-          </p>
+          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <p className="w-38 text-center">Ahorro de recursos naturales</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 rounded-3xl bg-[#4686BA]"></div>
-          <p className="w-38 text-center text-sm">
-            Menos contaminación ambiental
-          </p>
+          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <p className="w-40 text-center">Menos contaminación ambiental</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 rounded-3xl bg-[#4686BA]"></div>
-          <p className="w-38 text-center text-sm">Reducción de desechos</p>
+          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <p className="w-38 text-center">Reducción de desechos</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 rounded-3xl bg-[#4686BA]"></div>
-          <p className="w-38 text-center text-sm">Energía más eficiente</p>
+          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <p className="w-38 text-center">Energía más eficiente</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 rounded-3xl bg-[#4686BA]"></div>
-          <p className="w-38 text-center text-sm">Creación de empleos verdes</p>
+          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <p className="w-38 text-center">Creación de empleos verdes</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 rounded-3xl bg-[#4686BA]"></div>
-          <p className="w-38 text-center text-sm">
-            Apoyo a la economía circular
-          </p>
+          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <p className="w-38 text-center">Apoyo a la economía circular</p>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <div className="h-25 w-25 rounded-3xl bg-[#4686BA]"></div>
-          <p className="w-38 text-center text-sm">Futuro más sostenible</p>
+          <div className="h-25 w-25 shadow-dark rounded-3xl bg-gradient-to-b from-[#274863] to-[#4686BA]"></div>
+          <p className="w-38 text-center">Futuro más sostenible</p>
         </div>
       </section>
 
