@@ -35,7 +35,7 @@ const Header = () => {
 
       <nav className="hidden items-center md:flex">
         <ul className="flex gap-5 text-sm font-semibold [&>li]:flex [&>li]:items-center">
-          <li>Consultoría</li>
+          <li>Servicios</li>
           <li>Nosotros</li>
           <li className="rounded-md border-2 p-2">
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
