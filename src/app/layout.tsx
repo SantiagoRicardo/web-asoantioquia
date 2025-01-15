@@ -1,8 +1,9 @@
 import React from "react";
 
+import "./app.css";
+
 import type { Metadata } from "next";
-import { Header } from "../Header";
-import { Recycle } from "../Recycle";
+import { Header } from "./(pages-lib)/components/Header";
 
 export const metadata: Metadata = {
   title: "Asoantioquia",
@@ -15,7 +16,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <Header />
         {children}
-        <Recycle />
       </body>
     </html>
   );
