@@ -31,7 +31,7 @@
 
 /* Gradients */
 .bg-custom-radial {
-  background: radial-gradient(circle, #f4f7f0 35%, #9fc52e 60%);
+  background: radial-gradient(circle, #f4f7f0 25%, #9fc52e 60%);
 }
 
 .bg-warm-gradient {
