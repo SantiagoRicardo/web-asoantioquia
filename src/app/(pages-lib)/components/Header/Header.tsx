@@ -8,7 +8,9 @@ const Header = () => {
           href="/"
           className="font-rajdhani flex w-full items-center gap-2 text-2xl font-bold"
         >
-          <h1 className="font-rajdhani">ASOANTIOQUIA</h1>
+          <h1 className="font-rajdhani">
+            Asociación de Recicladores de Oficio para el Bajo Cauca y Córdoba
+          </h1>
         </Link>
         <div className="block md:hidden">
           <button id="astronav-menu" aria-label="Toggle Menu">
