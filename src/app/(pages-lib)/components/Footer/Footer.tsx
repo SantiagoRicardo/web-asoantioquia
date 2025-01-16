@@ -5,7 +5,7 @@ const Header = () => {
     <footer className="h-186 items-between relative flex justify-center overflow-hidden bg-[#9FC52E]">
       <div className="bg-custom-radial h-240 w-240 20 -bottom-85 absolute z-10 rounded-full"></div>
 
-      <div className="p-17.5 z-20 flex w-full justify-between">
+      <div className="p-17.5 z-30 flex w-full justify-between">
         <section className="flex flex-col justify-between">
           <div>
             <h3 className="text-3xl font-semibold text-white">Sedes</h3>
@@ -43,7 +43,7 @@ const Header = () => {
         </section>
       </div>
 
-      <div className="absolute z-30 flex h-full w-full items-end justify-center">
+      <div className="absolute z-20 flex h-full w-full items-end justify-center">
         <Image
           src={"/tree.png"}
           alt="Tree"
