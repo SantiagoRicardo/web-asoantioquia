@@ -1,3 +1,6 @@
+import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Services = () => (
   <section className="flex flex-col gap-10 px-4 py-36 md:gap-20 md:px-9">
     <header className="services-animated">
@@ -41,30 +44,8 @@ const Services = () => (
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 xl:grid-rows-3">
         <article className="border-cold-3 relative h-fit w-full rounded-lg border-2 p-2 md:flex md:h-full md:flex-col md:justify-center xl:w-80">
-          <div className="text-cold-4 absolute right-1 top-1 h-7 w-7">
-            <svg viewBox="0 0 30 30" fill="none">
-              <path
-                d="M15 7.5H7.5C6.83696 7.5 6.20107 7.76339 5.73223 8.23223C5.26339 8.70107 5 9.33696 5 10V22.5C5 23.163 5.26339 23.7989 5.73223 24.2678C6.20107 24.7366 6.83696 25 7.5 25H20C20.663 25 21.2989 24.7366 21.7678 24.2678C22.2366 23.7989 22.5 23.163 22.5 22.5V15"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.75 16.25L25 5"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M18.75 5H25V11.25"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+          <div className="text-cold-4 h-4.5 w-4.5 absolute right-1 top-1 box-content px-2 py-3">
+            <FontAwesomeIcon icon={faUpRightFromSquare} />
           </div>
           <header className="mb-1">
             <p className="mr-7 text-pretty text-sm leading-tight">
@@ -78,30 +59,8 @@ const Services = () => (
           </div>
         </article>
         <article className="border-cold-3 relative h-fit w-full rounded-lg border-2 p-2 md:flex md:h-full md:flex-col md:justify-center xl:w-80">
-          <div className="text-cold-4 absolute right-1 top-1 h-7 w-7">
-            <svg viewBox="0 0 30 30" fill="none">
-              <path
-                d="M15 7.5H7.5C6.83696 7.5 6.20107 7.76339 5.73223 8.23223C5.26339 8.70107 5 9.33696 5 10V22.5C5 23.163 5.26339 23.7989 5.73223 24.2678C6.20107 24.7366 6.83696 25 7.5 25H20C20.663 25 21.2989 24.7366 21.7678 24.2678C22.2366 23.7989 22.5 23.163 22.5 22.5V15"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.75 16.25L25 5"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M18.75 5H25V11.25"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+          <div className="text-cold-4 h-4.5 w-4.5 absolute right-1 top-1 box-content px-2 py-3">
+            <FontAwesomeIcon icon={faUpRightFromSquare} />
           </div>
           <header className="mb-1">
             <p className="mr-7 text-pretty text-sm leading-tight">
@@ -115,30 +74,8 @@ const Services = () => (
           </div>
         </article>
         <article className="border-cold-3 relative h-fit w-full rounded-lg border-2 p-2 md:flex md:h-full md:flex-col md:justify-center xl:w-80">
-          <div className="text-cold-4 absolute right-1 top-1 h-7 w-7">
-            <svg viewBox="0 0 30 30" fill="none">
-              <path
-                d="M15 7.5H7.5C6.83696 7.5 6.20107 7.76339 5.73223 8.23223C5.26339 8.70107 5 9.33696 5 10V22.5C5 23.163 5.26339 23.7989 5.73223 24.2678C6.20107 24.7366 6.83696 25 7.5 25H20C20.663 25 21.2989 24.7366 21.7678 24.2678C22.2366 23.7989 22.5 23.163 22.5 22.5V15"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.75 16.25L25 5"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M18.75 5H25V11.25"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+          <div className="text-cold-4 h-4.5 w-4.5 absolute right-1 top-1 box-content px-2 py-3">
+            <FontAwesomeIcon icon={faUpRightFromSquare} />
           </div>
           <header className="mb-1">
             <p className="mr-7 text-pretty text-sm leading-tight">
@@ -152,30 +89,8 @@ const Services = () => (
           </div>
         </article>
         <article className="border-cold-3 relative h-fit w-full rounded-lg border-2 p-2 md:flex md:h-full md:flex-col md:justify-center xl:w-80">
-          <div className="text-cold-4 absolute right-1 top-1 h-7 w-7">
-            <svg viewBox="0 0 30 30" fill="none">
-              <path
-                d="M15 7.5H7.5C6.83696 7.5 6.20107 7.76339 5.73223 8.23223C5.26339 8.70107 5 9.33696 5 10V22.5C5 23.163 5.26339 23.7989 5.73223 24.2678C6.20107 24.7366 6.83696 25 7.5 25H20C20.663 25 21.2989 24.7366 21.7678 24.2678C22.2366 23.7989 22.5 23.163 22.5 22.5V15"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.75 16.25L25 5"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M18.75 5H25V11.25"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+          <div className="text-cold-4 h-4.5 w-4.5 absolute right-1 top-1 box-content px-2 py-3">
+            <FontAwesomeIcon icon={faUpRightFromSquare} />
           </div>
           <header className="mb-1">
             <p className="mr-7 text-pretty text-sm leading-tight">
@@ -189,30 +104,8 @@ const Services = () => (
           </div>
         </article>
         <article className="border-cold-3 relative h-fit w-full rounded-lg border-2 p-2 md:flex md:h-full md:flex-col md:justify-center xl:w-80">
-          <div className="text-cold-4 absolute right-1 top-1 h-7 w-7">
-            <svg viewBox="0 0 30 30" fill="none">
-              <path
-                d="M15 7.5H7.5C6.83696 7.5 6.20107 7.76339 5.73223 8.23223C5.26339 8.70107 5 9.33696 5 10V22.5C5 23.163 5.26339 23.7989 5.73223 24.2678C6.20107 24.7366 6.83696 25 7.5 25H20C20.663 25 21.2989 24.7366 21.7678 24.2678C22.2366 23.7989 22.5 23.163 22.5 22.5V15"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.75 16.25L25 5"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M18.75 5H25V11.25"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+          <div className="text-cold-4 h-4.5 w-4.5 absolute right-1 top-1 box-content px-2 py-3">
+            <FontAwesomeIcon icon={faUpRightFromSquare} />
           </div>
           <header className="mb-1">
             <p className="mr-7 text-pretty text-sm leading-tight">
@@ -226,30 +119,8 @@ const Services = () => (
           </div>
         </article>
         <article className="border-cold-3 relative h-fit w-full rounded-lg border-2 p-2 md:flex md:h-full md:flex-col md:justify-center xl:w-80">
-          <div className="text-cold-4 absolute right-1 top-1 h-7 w-7">
-            <svg viewBox="0 0 30 30" fill="none">
-              <path
-                d="M15 7.5H7.5C6.83696 7.5 6.20107 7.76339 5.73223 8.23223C5.26339 8.70107 5 9.33696 5 10V22.5C5 23.163 5.26339 23.7989 5.73223 24.2678C6.20107 24.7366 6.83696 25 7.5 25H20C20.663 25 21.2989 24.7366 21.7678 24.2678C22.2366 23.7989 22.5 23.163 22.5 22.5V15"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.75 16.25L25 5"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M18.75 5H25V11.25"
-                stroke="#163651"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+          <div className="text-cold-4 h-4.5 w-4.5 absolute right-1 top-1 box-content px-2 py-3">
+            <FontAwesomeIcon icon={faUpRightFromSquare} />
           </div>
           <header className="mb-1">
             <p className="mr-7 text-pretty text-sm leading-tight">
