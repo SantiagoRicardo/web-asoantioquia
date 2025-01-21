@@ -1,5 +1,10 @@
+/* Primero importa las fuentes de Google */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap");
+
+/* Luego importa Tailwind CSS */
 @import "tailwindcss";
 
+/* Aquí van tus temas y configuraciones */
 @theme {
   --color-cold-1: #bfc0e1;
   --color-cold-2: #9fc52e;
@@ -29,7 +34,7 @@
   background-color: var(--color-neutral-300);
 }
 
-/* Gradients */
+/* Gradientes */
 .bg-custom-radial {
   background: radial-gradient(circle, #f4f7f0 25%, #9fc52e 60%);
 }
@@ -38,7 +43,7 @@
   background: linear-gradient(to bottom, #bbea2e, #95af48);
 }
 
-/* Animations */
+/* Animaciones */
 .shadow-dark {
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.36);
 }
