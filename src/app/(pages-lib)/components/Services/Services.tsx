@@ -18,25 +18,26 @@ const Services = () => (
           </h3>
         </header>
 
-        <footer className="mt-8 flex w-full flex-col gap-2 lg:flex-row">
-          <div className="relative w-full overflow-hidden">
-            <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-[70%]">
-              <Image
-                className="h-auto w-[200px] object-contain"
-                src="/camion-de-basura.png"
-                width={200}
-                height={200}
-                alt="Camión de basura"
-                priority
-              />
-            </div>
-            <a
-              href="#"
-              className="font-poppins relative z-10 w-full rounded-md bg-[#9DC538] py-3 text-center text-lg text-white transition-transform hover:-translate-y-1 hover:transform"
-            >
-              Pedir Servicios
-            </a>
+        <div className="mt-25">
+          <div className="-mb-15">
+            <Image
+              className="h-auto w-[150px] object-contain"
+              src="/camion-de-basura.png"
+              width={250}
+              height={250}
+              alt="Camión de basura"
+              priority
+            />
           </div>
+        </div>
+
+        <footer className="hidden w-full flex-grow basis-0 flex-col justify-end gap-2 lg:flex xl:flex-row xl:items-end">
+          <a
+            href="#"
+            className="font-poppins bg-cold-2 w-full rounded-md py-3 text-center text-lg text-white transition-transform hover:-translate-y-1 hover:transform"
+          >
+            Pedir Servicios
+          </a>
 
           <a
             href="#"
