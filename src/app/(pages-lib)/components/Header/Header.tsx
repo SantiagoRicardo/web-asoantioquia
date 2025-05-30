@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex flex-grow basis-0 items-center justify-between">
         <Link
           href="/"
-          className="font-rajdhani flex w-full items-center gap-2 text-2xl font-bold"
+          className="font-rajdhani flex w-full items-center gap-2 text-xl font-medium"
         >
           <h1 className="font-rajdhani">
             Asociación de Recicladores de Oficio para el Bajo Cauca y Córdoba

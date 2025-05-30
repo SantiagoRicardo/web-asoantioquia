@@ -11,8 +11,6 @@ const Header = () => {
             <h3 className="text-3xl font-semibold text-white">Sedes</h3>
             <ul className="mt-2 space-y-1 text-lg text-gray-50">
               <li>Turbo</li>
-              <li>Montería</li>
-              <li>Bajo Cauca</li>
               <li>Córdoba</li>
             </ul>
           </div>

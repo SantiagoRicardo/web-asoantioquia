@@ -36,94 +36,108 @@ const FormContact: React.FC = () => {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="m-25 mx-auto space-y-4 rounded-lg bg-white p-6 shadow-lg"
-    >
-      <h1 className="text-center text-5xl font-medium">Contácto</h1>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-        <div className="flex flex-col">
-          <label className="mb-2 flex items-center gap-2 text-gray-700">
-            <FontAwesomeIcon
-              className="rounded-2xl bg-[#CAF7FC] p-2"
-              icon={faUser}
-            />{" "}
-            Nombre
-          </label>
-          <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            className="w-full rounded-2xl bg-gradient-to-b from-[#E0F7FA] to-[#B2F6FF] p-3"
-            required
-          />
-        </div>
-        <div className="flex flex-col">
-          <label className="mb-2 flex items-center gap-2 text-gray-700">
-            <FontAwesomeIcon
-              className="rounded-2xl bg-[#CAF7FC] p-2 text-[#9FC52E]"
-              icon={faEnvelope}
-            />{" "}
-            Correo
-          </label>
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            className="w-full rounded-2xl bg-gradient-to-b from-[#E0F7FA] to-[#B2F6FF] p-3"
-            required
-          />
-        </div>
-        <div className="flex flex-col">
-          <label className="mb-2 flex items-center gap-2 text-gray-700">
-            <FontAwesomeIcon
-              className="rounded-2xl bg-[#CAF7FC] p-2 text-[#F03394]"
-              icon={faPhone}
-            />{" "}
-            Teléfono
-          </label>
-          <input
-            type="tel"
-            name="phone"
-            value={formData.phone}
-            onChange={handleChange}
-            className="w-full rounded-2xl bg-gradient-to-b from-[#E0F7FA] to-[#B2F6FF] p-3"
-            required
-          />
-        </div>
-      </div>
-      <div className="flex flex-col">
-        <label className="mb-2 flex items-center gap-2 text-gray-700">
-          <FontAwesomeIcon
-            className="rounded-2xl bg-[#CAF7FC] p-2 text-[#9FC52E]"
-            icon={faCommentDots}
-          />{" "}
-          Descripción
-        </label>
-        <textarea
-          name="description"
-          value={formData.description}
-          onChange={handleChange}
-          className="h-24 w-full resize-none rounded-2xl bg-gradient-to-b from-[#E0F7FA] to-[#B2F6FF] p-3"
-          required
-        ></textarea>
-      </div>
-      <button
-        type="submit"
-        className="mx-auto flex max-w-lg cursor-pointer items-center justify-center gap-2 rounded-md bg-[#9FC52E] px-7 py-4 text-white"
-        disabled={loading}
+    <div className="flex min-h-screen items-center justify-center">
+      <form
+        onSubmit={handleSubmit}
+        className="mx-auto flex w-full max-w-xl flex-col space-y-4 rounded-lg bg-white p-8"
       >
-        {loading ? (
-          <>
-            <FontAwesomeIcon icon={faSpinner} spin /> Cargando...
-          </>
-        ) : (
-          "Enviar"
-        )}
-      </button>
-    </form>
+        <h1 className="text-center text-3xl font-medium">Contácto</h1>
+
+        {/* Nombre */}
+        <div className="flex flex-col">
+          <label className="mb-2 text-gray-700">Nombre</label>
+          <div className="relative">
+            <FontAwesomeIcon
+              icon={faUser}
+              className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+            />
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              className="w-full rounded-2xl border border-gray-300 p-3 pl-10"
+              placeholder="Nombre"
+              required
+            />
+          </div>
+        </div>
+
+        {/* Correo */}
+        <div className="flex flex-col">
+          <label className="mb-2 text-gray-700">Correo</label>
+          <div className="relative">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+            />
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              className="w-full rounded-2xl border border-gray-300 p-3 pl-10"
+              placeholder="Correo electrónico"
+              required
+            />
+          </div>
+        </div>
+
+        {/* Teléfono */}
+        <div className="flex flex-col">
+          <label className="mb-2 text-gray-700">Teléfono</label>
+          <div className="relative">
+            <FontAwesomeIcon
+              icon={faPhone}
+              className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+            />
+            <input
+              type="tel"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              className="w-full rounded-2xl border border-gray-300 p-3 pl-10"
+              placeholder="Teléfono"
+              required
+            />
+          </div>
+        </div>
+
+        {/* Descripción */}
+        <div className="flex flex-col">
+          <label className="mb-2 text-gray-700">Descripción</label>
+          <div className="relative">
+            <FontAwesomeIcon
+              icon={faCommentDots}
+              className="pointer-events-none absolute left-3 top-4 text-gray-400"
+            />
+            <textarea
+              name="description"
+              value={formData.description}
+              onChange={handleChange}
+              className="h-24 w-full resize-none rounded-2xl border border-gray-300 p-3 pl-10"
+              placeholder="Escribe tu mensaje..."
+              required
+            ></textarea>
+          </div>
+        </div>
+
+        {/* Botón de enviar */}
+        <button
+          type="submit"
+          className="mx-auto flex w-full max-w-sm items-center justify-center gap-2 rounded-md bg-[#9FC52E] px-7 py-4 text-white"
+          disabled={loading}
+        >
+          {loading ? (
+            <>
+              <FontAwesomeIcon icon={faSpinner} spin /> Cargando...
+            </>
+          ) : (
+            "Enviar"
+          )}
+        </button>
+      </form>
+    </div>
   );
 };
 
