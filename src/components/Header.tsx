@@ -16,12 +16,12 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3">
             <img
-              src="/public/logo-asoantioquia.png"
-              alt="Asoantioquia"
-              className="w-auto h-12"
+              src="/logo-asoantioquia.png"
+              alt="AsoAntioquia"
+              className="w-auto h-16"
             />
-            <span className="text-2xl font-bold text-transparent bg-gradient-to-r from-green-600 to-green-800 bg-clip-text">
-              Asoantioquia
+            <span className="text-2xl font-bold text-transparent bg-gradient-to-r from-[#6c9036] to-[#b3c62d] bg-clip-text">
+              AsoAntioquia
             </span>
           </Link>
 
